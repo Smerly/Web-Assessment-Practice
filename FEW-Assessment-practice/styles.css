@@ -1,0 +1,55 @@
+section {
+  width: 200px;
+  height: 200px;
+  border: 1px black solid;
+  font-family: "Helvetica";
+  justify-items: center;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+}
+
+header {
+  font-family: "Helvetica";
+}
+
+input {
+  font-family: "Helvetica";
+  border: 1px;
+  padding: 0.5em;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-rows: 230px 230px;
+  grid-template-columns: 230px 230px;
+  grid-template-areas:
+    "grid1 grid2"
+    "grid3 grid4";
+}
+
+.grid1 {
+  grid-area: grid1;
+}
+
+.grid2 {
+  grid-area: grid2;
+}
+.grid3 {
+  grid-area: grid3;
+}
+.grid4 {
+  grid-area: grid4;
+}
+
+.grid3css {
+  font-size: 93%;
+}
+
+.grid1css {
+  font-size: 2em;
+}
+
+input [type="number"] {
+  border: 3px solid, black;
+}
