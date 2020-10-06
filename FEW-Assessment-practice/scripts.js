@@ -29,9 +29,9 @@ function displayVisual(e) {
   const height = parseFloat(inputHeight.value);
   const color = inputColor;
 
-  const visual = `style='width: ${width}px;
+  const visual = `<div style='width: ${width}px;
                          height: ${height}px;
-                         color: ${color};`;
+                         background-color: ${color};></div>`;
   visualHTML.innerHTML = visual;
 }
 
